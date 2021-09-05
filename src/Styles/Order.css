@@ -1,0 +1,129 @@
+.order {
+	background-color: #fff;
+	padding: 20px 20px 50px 20px;
+	margin: 20px 0;
+	border-radius: 5px;
+	position: relative;
+}
+
+.order > div {
+	display: flex;
+	padding: 10px 0;
+}
+
+.order > div > h3 {
+	flex: 0.25;
+}
+
+.order > div > p,
+.order > div > div {
+	flex: 0.75;
+}
+
+.order__info {
+	display: flex;
+	flex-direction: column;
+}
+
+.order__info > div {
+	display: flex;
+	border-bottom: 1px solid lightgrey;
+	padding: 5px 0;
+}
+
+.order__info > div > h3 {
+	flex: 0.25;
+	font-weight: 500;
+}
+
+.order__info > div > p {
+	flex: 0.75;
+}
+
+.order > button {
+	width: 200px;
+	padding: 8px 0;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background-color: #FFA41C;
+	font-size: 17px;
+}
+
+
+.order > button:hover {
+	background-color: #FA8900;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.order__cancellationMessage {
+	position: absolute;
+	text-align: center;
+	background-color: rgba(216, 216, 216, 0.9);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 3;
+}
+
+.order__cancellationMessage > h2 {
+	font-weight: 400;
+	margin: 0 0 20px 0;
+}
+
+.order__cancellationMessage > div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.order__cancellationMessage > div > button {
+	width: 20% !important;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 0 !important;
+	margin: 10px;
+	height: fit-content;
+	cursor: pointer;
+}
+
+.order__cancellationMessage__yesButton {
+	background-color: #FFA41C;
+	font-size: 17px;
+}
+
+.order__cancellationMessage__yesButton:hover {
+	background-color: #FA8900;
+}
+
+.order__cancellationMessage__noButton {
+	font-size: 17px;
+	background-color: #FFD814;
+}
+
+.order__cancellationMessage__noButton:hover {
+	background-color: #F7CA00;
+}
+
+@media screen and (max-width: 760px) {
+	.order__info > div {
+		flex-direction: column;
+	}
+
+	.order__info > div > p {
+		margin: 5px 0 0 0;
+	}
+
+	.order__cancellationMessage > div > button {
+		width: 60% !important;
+	}
+}

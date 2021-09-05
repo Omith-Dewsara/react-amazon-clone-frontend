@@ -1,0 +1,11 @@
+.footer__backToTop {
+	padding: 12px 0;
+	text-align: center;
+	background-color: #37475A;
+	color: #fff;
+	cursor: pointer;
+}
+
+.footer__backToTop:hover {
+	background-color: #485769;
+}

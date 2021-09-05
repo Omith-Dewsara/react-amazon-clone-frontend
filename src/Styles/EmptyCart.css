@@ -1,0 +1,84 @@
+.emptyCart {
+	display: flex;
+	background-color: #fff;
+	padding: 20px;
+	flex: 1;
+	height: fit-content;
+}
+
+.emptyCart__left > img {
+	width: 500px;
+}
+
+.emptyCart__right {
+	margin: 0 0 0 30px;
+}
+
+.emptyCart__right > h1 {
+	font-weight: 500;
+}
+
+.emptyCart__right > a {
+	text-decoration: none;
+}
+
+.emptyCart__right > a > div {
+	color: #468487;
+	font-weight: 500;
+	transition: color 50ms linear;
+}
+
+.emptyCart__right > a > div:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #C9511F;
+}
+
+.emptyCart__right__buttons {
+	margin: 20px 0 0 0;
+}
+
+.emptyCart__right__buttons > a > button {
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.emptyCart__right__buttons__signIn__button {
+	background-color: #FFD814;
+	border: none;
+	margin: 0 10px 0 0;
+}
+
+.emptyCart__right__buttons__signIn__button:hover {
+	background-color: #F7CA00;
+}
+
+.emptyCart__right__buttons__signUp__button {
+	outline-width: 0;
+	border: 1px solid lightgrey;
+	background-color: #fff;
+}
+
+.emptyCart__right__buttons__signUp__button:hover {
+	background-color: #F7FAFA;
+}
+
+@media screen and (max-width: 1200px) {
+	.emptyCart {
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+	.emptyCart__left > img {
+		/*display: none;*/
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.emptyCart__left > img {
+		display: none;
+	}
+}

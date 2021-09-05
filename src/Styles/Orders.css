@@ -1,0 +1,10 @@
+.orders {
+	padding: 20px;
+	min-height: 100vh;
+}
+
+.orders > h1 {
+	font-weight: 400;
+	border-bottom: 1px solid lightgrey;
+	padding: 0 0 10px 0;
+}

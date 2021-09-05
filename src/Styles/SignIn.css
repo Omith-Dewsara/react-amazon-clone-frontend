@@ -1,0 +1,139 @@
+.signIn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 20px 0 35px 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.signIn__amazonLogo {
+	width: 100px;
+}
+
+.signIn__container {
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	padding: 20px;
+	width: 320px;
+	margin: 20px 0;
+}
+
+.signIn__container > h1 {
+	font-weight: 450;
+	margin: 0 0 10px 0;
+}
+
+.signIn__container > form {
+	display: flex;
+	flex-direction: column;
+}
+
+.signIn__container > form > label {
+	font-weight: 600;
+	margin: 10px 0 3px 0;
+}
+
+.signIn__container > form > input {
+	padding: 8px 5px;
+	border: 1.5px solid lightgrey;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	/*margin: 0 0 5px 0;*/
+	outline-width: 0;
+	transition: box-shadow 100ms linear;
+}
+
+.signIn__container > form > input:focus {
+	border: 1.5px solid #CB8031;	
+	box-shadow: 0 0 5px #E77600;
+}
+
+.signIn__container > form > button {
+	/*background-color: #f0c14b;*/
+	border-radius: 5px;
+	width: 100%;
+	padding: 8px 5px;
+	border: 1px solid;
+	margin: 15px 0 0 0;
+	border-color: #a88734 #9c7e31 #846a29;
+	background: linear-gradient(#F3CF77, #F0C14C);
+	color: #111;
+	cursor: pointer;
+}
+
+.signIn__container > p {
+	margin: 15px 0 0 0;
+	font-size: 14px;
+}
+
+.signIn__container > div {
+	display: flex;
+	align-items: center;
+	margin: 20px 0 0 0;
+}
+
+.signIn__container > div > p {
+	color: #468487;
+	cursor: pointer;
+}
+
+.signIn__container > div > p:hover {
+	text-decoration: underline;
+	color: #C9511F;
+}
+
+.signIn__signUpInfo {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signIn__signUpInfo > div {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	font-size: 12px;
+	color: grey;
+}
+
+.signIn__signUpInfo > div::before,
+.signIn__signUpInfo >  div::after {
+	content: '';
+	height: 1px;
+	background-color: lightgrey;
+	flex: 1;
+	width: 100%;
+}
+
+.signIn__signUpInfo > div::before {
+	margin: 0 10px 0 0;
+}
+
+.signIn__signUpInfo > div::after {
+	margin: 0 0 0 10px;
+}
+
+.signIn__signUpInfo > a > button {
+	border: 1px solid #ADB1B8;
+	width: 100%;
+	padding: 7px 0;
+	cursor: pointer;
+	border-radius: 3px;
+	margin: 10px 0 0 0;
+}
+
+.signIn__signUpInfo > a > button:hover {
+	background-color: #EFF0F3;
+}
+
+.signIn__signUpInfo > a > button:focus {
+	box-shadow: 0 0 5px #E77600;
+}
+
+.signIn__container > form > div {
+	font-size: 14px;
+	color: #ED4337;
+	font-weight: 500;
+}

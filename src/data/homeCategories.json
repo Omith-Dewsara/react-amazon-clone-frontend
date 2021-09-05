@@ -1,0 +1,49 @@
+[
+	{
+		"image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg",
+		"linkName": "See more",
+		"title": "AmazonBasics",
+		"multipleImages": false
+	},
+	{
+		"image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_1x._SY304_CB432774714_.jpg",
+		"linkName": "Learn more",
+		"title": "Easy Returns",
+		"multipleImages": false
+	},
+	{
+		"image": "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg",
+		"linkName": "Explore now",
+		"title": "Explore now",
+		"multipleImages": false
+	},
+	{
+		"image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Dash_Oculus_1x._SY304_CB667158353_.jpg",
+		"linkName": "Shop now",
+		"title": "Oculus",
+		"multipleImages": false
+	},
+	{
+		"image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg",
+		"linkName": "Shop now",
+		"title": "Computers & Accessories",
+		"multipleImages": false
+	},
+	{
+		"image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg",
+		"linkName": "See more",
+		"title": "Gaming Accessories",
+		"multipleImages": true,
+		"images": [
+			{ "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg" },
+			{ "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg" },
+			{ "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg" },
+			{ "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg" }
+		]
+	},
+	{
+		"image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_TV_2X._SY304_CB432517900_.jpg",
+		"title": "Find your ideal TV",
+		"linkName": "See more"
+	}
+]

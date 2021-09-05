@@ -1,0 +1,143 @@
+.checkout {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 100px;
+}
+
+.checkout__logo {
+	width: 150px;
+}
+
+.checkout > h1 {
+	font-weight: 400;
+	margin: 0 0 20px 0;
+}
+
+
+.checkout__container {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.checkout__container > h2 {
+	font-weight: 500;
+	margin: 0 0 15px 0;
+}
+
+.checkout__container > form {
+	display: flex;
+	flex-direction: column;
+} 
+
+.checkout__container > form > select {
+	background-color: #edeff2;
+	cursor: pointer;
+}
+
+.checkout__container > form > select:hover {
+	background-color: #E1E4EA;
+}
+
+.checkout__container > form > label {
+	margin: 10px 0 3px 0;
+	font-weight: 600;
+}
+
+.checkout__container > form > input,
+.checkout__container > form > select {
+	width: 100%;
+	padding: 6px 5px;
+	outline-width: 0;
+	border: 1.5px solid #DADADA;
+	border-radius: 3px;
+}
+
+.checkout__container > form > input:focus,
+.checkout__container > form > select:focus {
+	border: 1.5px solid #CB8031;	
+	box-shadow: 0 0 2px #E77600;
+}
+
+.checkout__container > form > p {
+	font-size: 12px;
+}
+
+.checkout__container > form > button {
+	background-image: linear-gradient(#F2D481, #F2C85E);
+	border: none;
+	border-color: #a88734 #9c7e31 #846a29;
+	padding: 8px 15px;
+	border-radius: 3px;
+	width: fit-content;
+	cursor: pointer;
+	margin: 15px 0;
+}
+
+.checkout__container > form > div {
+	margin: 20px 0 0 0;
+}
+
+.checkout__container > form > button:hover {
+	background-image: linear-gradient(#F3CD70, #EEBB3A);
+}
+
+.checkout__container > div > h2 {
+	font-weight: 500;
+	margin: 25px 0 15px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid lightgrey;
+}
+
+.checkout__container > div > button  {
+	margin: 15px 0;
+	padding: 5px 0;
+	width: 400px;
+	cursor: pointer;
+	border: 1px solid;
+	border-color: #a88734 #9c7e31 #846a29;
+	background-image: linear-gradient(#F2D481, #F2C85E);
+	border-radius: 5px;
+}
+
+.checkout__container > div > button:hover {
+	background-image: linear-gradient(#F3CD70, #EEBB3A);
+}
+
+.checkout__container__paymentIcons {
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
+}
+
+.checkout__container__paymentIcons > img {
+	width: 50px;
+	margin: 0 10px 0 0;
+}
+
+.payment-element {
+	width: 60%;
+	margin: 20px 0 0 0;
+}
+
+.checkout__container__errorMessages,
+.checkout__container__paymentError {
+	color: #FF0000;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.checkout__container__paymentError {
+	margin: 5px 0 0 0;
+}
+
+@media screen and (max-width: 900px) {
+	.checkout {
+		padding: 10px;
+	}
+
+	.checkout__container {
+		width: 90%;
+	}
+}

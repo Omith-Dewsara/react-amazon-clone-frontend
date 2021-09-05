@@ -1,0 +1,30 @@
+.footerSectionThree {
+	background-color: #131A22;
+	color: #fff;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	font-size: 12px;
+	padding: 50px 0;
+}
+
+/*71px*/
+
+.footerSectionThree > div {
+	width: 102px;
+	margin: 30px 20px 0 0;
+}
+
+.footerSectionThree > div > div {
+	margin: 0 0 20px 0;
+	cursor: pointer;
+	color: #999999;
+}
+
+.footerSectionThree > div > div > div {
+	color: #fff;
+}
+
+.footerSectionThree > div > div:hover {
+	text-decoration: underline;
+}
