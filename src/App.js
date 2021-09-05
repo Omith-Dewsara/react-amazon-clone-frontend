@@ -16,7 +16,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 
-const promise = loadStripe('pk_test_51JRvZgBB7TaVdvcQDvxDZFupVKlPGNRql9FV1z9bJDRVjNDRQ2iVp5UGHMuvdUHPvyuaWgLeNDm41m5v7q3uq4s300TVgBoLf1');
+const promise = loadStripe('secret_key');
 
 function App() {
   const dispatch = useDispatch();
